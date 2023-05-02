@@ -24,7 +24,7 @@ def diff_csv():
   if new_file.filename == '':
       return "No file found", 400
 
-  key = "AK_ID"
+  key = "actionkit_id"
 
   old_df = pd.read_csv(old_file, index_col=key).reset_index().set_index(key)
   new_df = pd.read_csv(new_file, index_col=key).reset_index().set_index(key)
