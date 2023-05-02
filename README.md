@@ -6,7 +6,7 @@ and return a new csv of the rows in the second input csv that weren't in the fir
 These are extremely rough instructions and I can't help if it doesn't work. Ideally this would be set up in a more infra-as-code way so you don't have to
 copy/paste into a web editor, but that takes time and energy I don't have :) 
 
-Both CSVs _must_ have a column called `AK_ID` that can be used to identify the members.
+Both CSVs _must_ have a column called `actionkit_id` that can be used to identify the members.
 
 - [Guide on gettings started in Google Cloud Functions](https://cloud.google.com/functions/docs/console-quickstart-1st-gen)
 
